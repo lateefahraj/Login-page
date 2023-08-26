@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="one">
+            <header>
+                <p id="hub">TechiesHub</p>
+                <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
+                </nav>
+                <button><a id="log" href="#login-form">Login</a></button>
+            </header>
+            <div class="greetings">
+                <h2 id="welcome">Welcome to</h2>
+                <h1 id="tech">TechiesHub</h1>
+            </div>
+            <div class="explore">
+                <p>Explore, connect and build!</p>
+            </div>
+        </section>
+        <section class="two" role="region" aria-labelledby="login-form">
+            <form action="#">
+                <h1 id="login-form">Login</h1>
+                    <div class="input-box">
+                        <input type="email" placeholder="Enter your email" required />
+                        <i class="far fa-envelope email"></i>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" placeholder="Enter your password" required  />
+                        <i class="fas fa-lock password"></i>
+                        <i class="far fa-eye pw"></i>
+                    </div>
+                    <div class="rem">
+                    <input id="remember-me" type="checkbox" /> Remember me <span><a href="teechiesbub.com?" id="me">Forgot Password?</a></span>
+                    </div>
+                    <input type="submit" value="Login" />
+                    <p id="account">Don't have an account? <a href="techieshub.com" id="acc">Signup</a></p>
+            </form>
+        </section>
+    </body>
+</html>
